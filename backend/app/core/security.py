@@ -3,6 +3,7 @@ from jose import jwt
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
 
+
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 SECRET_KEY = "supersecretkey"
@@ -29,3 +30,5 @@ def decode_token(token: str):
         return jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
     except JWTError:
         return None
+
+

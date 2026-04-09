@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
